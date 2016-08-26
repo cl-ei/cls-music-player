@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html  class="no-js" lang="zh-CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <title>CL's Music</title>
+    <meta name="author" content="Caoliang">    
+    <meta name="description" content="Caoliang 的音乐">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/jquery.nstSlider.min.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script> 
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.nstSlider.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+    <div id="player_border">
+        <div id="first_layer">
+            <div id="player_name" class="hxjj">
+                <img id="friend_link_p" src="/static/player/head.png">
+            </div>
+
+            <div id="btns">
+                <img id="btn_play" src="/static/player/pause.png" />
+                <img id="pgs_bar" src="/static/player/pgs_bar.png" />                
+
+                <div id="pgs_border">
+                    <img id="pgs_block" src="/static/player/pgs_block.png" />           
+                </div>
+            </div>
+            <div id="btn_border">
+                <a id="music_name" class="nounderline">播放：枕着你的名字入眠</a>                
+                <a id="music_play_next_btn" class="nounderline"><i class="fa fa-forward fa-fw"></i>下一曲</a>           
+                <a id="music_list_btn" class="nounderline"><i class="fa fa-th-list fa-fw"></i>列表</a>
+            </div>
+        </div>
+
+        <div id="second_layer">
+            <div id="ctls">
+                <a id="btn_up" class="nounderline"><i class="fa fa-chevron-left fa-fw"></i>上翻</a>
+                <a id="btn_back" class="nounderline"><i class="fa fa-undo fa-fw"></i>返回</a>
+                <a id="btn_down" class="nounderline">下翻<i class="fa fa-chevron-right fa-fw"></i></a>
+            </div>                
+
+            <div id = "msc_list_border">
+                <div id="msc_list"></div>
+            </div>
+        </div>
+    </div>
+    <div id="audio_border">
+        <audio id="audio" src=""></audio>
+    </div>
+
+<script type="text/javascript">
+music_list = [
+    "Nightingale - Yanni.mp3",
+    "暮色苍然 はちみつれもん.mp3",
+    "Comtine D'un Autre Ete L'apres Midi  Yann Tiersen.mp3",
+    "夜的钢琴曲(五) 石进.mp3",
+    "さよならの夏 手嶌葵.mp3",
+    "君をのせて 宫崎骏.mp3",
+    "远方的寂静 林海.mp3",
+    "The Rain 久石让.mp3",
+    "Love Letter To You.mp3",
+    "Merry Go Round 久石让.mp3",
+    "바람 소리  May Second.mp3",
+    "萤火虫之舞 山居岁月.mp3",
+    "Gates Of Dawn    Secret Garden.mp3",
+    "いつも何度でも  宗次郎.mp3",
+];
+</script>
+</body>
+</html>
